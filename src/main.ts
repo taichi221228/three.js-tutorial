@@ -18,7 +18,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 
 const scene = new THREE.Scene();
 
-const camera = new THREE.PerspectiveCamera(45, width / height, 1);
+const camera = new THREE.PerspectiveCamera(80, width / height, 1);
 camera.position.set(0, 0, 1000);
 
 const geometry = new THREE.BoxGeometry(200, 200, 200);
