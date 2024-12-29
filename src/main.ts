@@ -13,7 +13,6 @@ const { app, canvas } = (() => {
 })();
 
 const renderer = new THREE.WebGLRenderer({ canvas });
-
 renderer.setSize(width, height);
 renderer.setPixelRatio(window.devicePixelRatio);
 
