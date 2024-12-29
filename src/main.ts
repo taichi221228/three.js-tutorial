@@ -5,7 +5,6 @@ const { width, height } = { width: 960, height: 540 };
 
 const { app, canvas } = (() => {
 	const app = document.getElementById("app");
-
 	return { app, canvas: app.querySelector("canvas") };
 })();
 
@@ -33,9 +32,7 @@ tick();
 
 function tick() {
 	requestAnimationFrame(tick);
-
 	mesh.rotation.x += 0.01;
 	mesh.rotation.y += 0.01;
-
 	renderer.render(scene, camera);
 }
