@@ -24,8 +24,8 @@ camera.position.set(0, 0, 1000);
 
 const geometry = new THREE.BoxGeometry(200, 200, 200);
 const material = new THREE.MeshStandardMaterial({ color: 0xffd700 });
-const box = new THREE.Mesh(geometry, material);
-scene.add(box);
+const mesh = new THREE.Mesh(geometry, material);
+scene.add(mesh);
 
 const light = new THREE.DirectionalLight(0xffffff);
 light.position.set(1, 1, 1);
