@@ -37,8 +37,8 @@ tick();
 function tick() {
 	requestAnimationFrame(tick);
 
-	box.rotation.x += 0.01;
-	box.rotation.y += 0.01;
+	mesh.rotation.x += 0.01;
+	mesh.rotation.y += 0.01;
 
 	renderer.render(scene, camera);
 }
