@@ -1,10 +1,7 @@
 import "./style.css";
 import * as THREE from "three";
 
-const { width, height } = {
-	width: 960,
-	height: 540,
-};
+const { width, height } = { width: 960, height: 540 };
 
 const { app, canvas } = (() => {
 	const app = document.getElementById("app");
