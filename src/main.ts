@@ -3,7 +3,7 @@ import * as THREE from "three";
 
 const { width, height } = { width: 1472, height: 864 };
 
-const { app, canvas } = (() => {
+const { canvas } = (() => {
 	const app = document.getElementById("app");
 	return { app, canvas: app.querySelector("canvas") };
 })();
